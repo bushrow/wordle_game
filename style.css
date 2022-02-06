@@ -14,9 +14,12 @@ body {
     margin: 20px;
 }
 
+
 .title {
     font-weight: bolder;
     font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .guess-row {
@@ -37,13 +40,21 @@ input {
 }
 
 .key {
-    width: 40px;
-    height: 60px;
-    line-height: 60px;
+    width: 30px;
+    height: 50px;
+    line-height: 50px;
     margin: 3px;
     background-color: grey;
     border: grey solid 2px;
     display: inline-block;
+}
+
+#enterKey {
+    width: 55px;
+}
+
+#delKey {
+    width: 45px;
 }
 
 
