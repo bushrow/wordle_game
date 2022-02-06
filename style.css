@@ -1,0 +1,52 @@
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: whitesmoke;
+}
+
+body {
+    background-color: #111111;
+}
+
+
+.section {
+    width: 100%;
+    text-align: center;
+}
+
+.title {
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+.guess-row {
+    margin: 5px;
+}
+
+input {
+    width: 60px;
+    height: 60px;
+    border: rgba(100, 100, 100, 0.7) solid 2px;
+    background-color: #111111;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin: 1px;
+    padding: 0px;
+}
+
+.correct {
+    background-color: rgb(85, 135, 85);
+    border: rgb(85, 135, 85) solid 2px;
+}
+
+.included {
+    background-color: rgb(210, 185, 65);
+    border: rgb(210, 185, 65) solid 2px;
+}
+
+.incorrect {
+    background-color: rgb(75, 75, 75);
+    border: rgb(75, 75, 75) solid 2px;
+}
+
