@@ -11,6 +11,7 @@ body {
 .section {
     width: 100%;
     text-align: center;
+    margin: 20px;
 }
 
 .title {
@@ -35,6 +36,17 @@ input {
     padding: 0px;
 }
 
+.key {
+    width: 40px;
+    height: 60px;
+    line-height: 60px;
+    margin: 3px;
+    background-color: grey;
+    border: grey solid 2px;
+    display: inline-block;
+}
+
+
 .correct {
     background-color: rgb(85, 135, 85);
     border: rgb(85, 135, 85) solid 2px;
@@ -50,3 +62,6 @@ input {
     border: rgb(75, 75, 75) solid 2px;
 }
 
+.keyboard-row {
+    width: 100%;
+}
