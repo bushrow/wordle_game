@@ -7,7 +7,6 @@ body {
     background-color: #111111;
 }
 
-
 .section {
     width: 100%;
     text-align: center;
@@ -46,6 +45,7 @@ input {
     margin: 3px;
     background-color: grey;
     border: grey solid 2px;
+    border-radius: 5px;
     display: inline-block;
 }
 
