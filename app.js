@@ -1,4 +1,12 @@
-const myWord = "above"
+function getWord() {
+  var theUrl = "https://6qst7bhcdh.execute-api.us-east-1.amazonaws.com/default/select_wordle";
+  var xmlHttp = new XMLHttpRequest();
+  xmlHttp.open("GET", theUrl, false); // false for synchronous request
+  xmlHttp.send(null);
+  return xmlHttp.responseText;
+}
+
+const myWord = getWord()
 
 function nextBox(e, currentBox) {
   var nextBox = currentBox.nextElementSibling;
