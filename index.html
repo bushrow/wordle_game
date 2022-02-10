@@ -19,58 +19,13 @@
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
     <div class="section title-bar">
-      <p class="title">WORDLE</p>
+      <p class="title">WORDLE... but better.</p>
     </div>
 
-    <div class="section word-guesses">
-      <div class="guess-row">
-        <input type="text" size="1" maxlength="1" onkeyup="nextBox(event, this);" />
-        <input type="text" size="1" maxlength="1" onkeyup="nextBox(event, this);" />
-        <input type="text" size="1" maxlength="1" onkeyup="nextBox(event, this);" />
-        <input type="text" size="1" maxlength="1" onkeyup="nextBox(event, this);" />
-        <input type="text" size="1" maxlength="1" onkeyup="nextBox(event, this);" />
-      </div>
-      <div class="guess-row">
-        <input type="text" size="1" maxlength="1" onkeyup="nextBox(event, this);" />
-        <input type="text" size="1" maxlength="1" onkeyup="nextBox(event, this);" />
-        <input type="text" size="1" maxlength="1" onkeyup="nextBox(event, this);" />
-        <input type="text" size="1" maxlength="1" onkeyup="nextBox(event, this);" />
-        <input type="text" size="1" maxlength="1" onkeyup="nextBox(event, this);" />
-      </div>
-      <div class="guess-row">
-        <input type="text" size="1" maxlength="1" onkeyup="nextBox(event, this);" />
-        <input type="text" size="1" maxlength="1" onkeyup="nextBox(event, this);" />
-        <input type="text" size="1" maxlength="1" onkeyup="nextBox(event, this);" />
-        <input type="text" size="1" maxlength="1" onkeyup="nextBox(event, this);" />
-        <input type="text" size="1" maxlength="1" onkeyup="nextBox(event, this);" />
-      </div>
-      <div class="guess-row">
-        <input type="text" size="1" maxlength="1" onkeyup="nextBox(event, this);" />
-        <input type="text" size="1" maxlength="1" onkeyup="nextBox(event, this);" />
-        <input type="text" size="1" maxlength="1" onkeyup="nextBox(event, this);" />
-        <input type="text" size="1" maxlength="1" onkeyup="nextBox(event, this);" />
-        <input type="text" size="1" maxlength="1" onkeyup="nextBox(event, this);" />
-      </div>
-      <div class="guess-row">
-        <input type="text" size="1" maxlength="1" onkeyup="nextBox(event, this);" />
-        <input type="text" size="1" maxlength="1" onkeyup="nextBox(event, this);" />
-        <input type="text" size="1" maxlength="1" onkeyup="nextBox(event, this);" />
-        <input type="text" size="1" maxlength="1" onkeyup="nextBox(event, this);" />
-        <input type="text" size="1" maxlength="1" onkeyup="nextBox(event, this);" />
-      </div>
-      <div class="guess-row">
-        <input type="text" size="1" maxlength="1" onkeyup="nextBox(event, this);" />
-        <input type="text" size="1" maxlength="1" onkeyup="nextBox(event, this);" />
-        <input type="text" size="1" maxlength="1" onkeyup="nextBox(event, this);" />
-        <input type="text" size="1" maxlength="1" onkeyup="nextBox(event, this);" />
-        <input type="text" size="1" maxlength="1" onkeyup="nextBox(event, this);" />
-      </div>
+    <div id="word-guesses" class="section word-guesses"></div>
+    <div id="result-notice" class="hide-result result-notice">Congratulations!</div>
 
-
-    </div>
-
-    <div id="keyboard" class="section keyboard">
-    </div>
+    <div id="keyboard" class="section keyboard"></div>
     <script src="app.js"></script>
   </body>
 

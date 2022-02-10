@@ -16,30 +16,31 @@ body {
 
 .title {
     font-weight: bolder;
-    font-size: 40px;
+    font-size: 32px;
     margin-top: 0;
     margin-bottom: 0;
 }
 
 .guess-row {
-    margin: 5px;
+    margin: 3px;
 }
 
 input {
-    width: 60px;
-    height: 60px;
-    border: rgba(100, 100, 100, 0.7) solid 2px;
+    width: 55px;
+    height: 55px;
+    border: rgba(100, 100, 100, 0.5) solid 2px;
     background-color: #111111;
     text-align: center;
     font-size: 32px;
     font-weight: 900;
     text-transform: uppercase;
-    margin: 1px;
+    margin: 3px 3px 0 3px;
     padding: 0px;
+    caret-color: transparent;
 }
 
 .key {
-    width: 30px;
+    width: 35px;
     height: 50px;
     line-height: 50px;
     margin: 3px;
@@ -47,6 +48,7 @@ input {
     border: grey solid 2px;
     border-radius: 5px;
     display: inline-block;
+    font-size: 12px;
 }
 
 #enterKey {
@@ -75,4 +77,37 @@ input {
 
 .keyboard-row {
     width: 100%;
+}
+
+.result-notice {
+    position: absolute;
+    top: 30vh;
+    left: 31.5vw;
+    width: 40vw;
+    height: 20vh;
+    line-height: 20vh;
+    z-index: 100;
+    background-color:#111111;
+    border: grey solid 2px;
+    border-radius: 10px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.hide-result {
+    display: none;
+}
+
+.wrong-final {
+    line-height: 10vh;
+}
+
+.display-result {
+    animation: fadeIn 2s
+}
+
+@keyframes fadeIn {
+  0% {opacity:0; top:0;}
+  50% {opacity:0.4}
+  100% {opacity:1; top:30vh;}
 }
